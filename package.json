@@ -5,10 +5,11 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "eject": "expo eject"
+    "eject": "expo eject",
+    "stop": "Taskkill /Im node.exe /F"
   },
   "dependencies": {
-    "expo": "~38.0.8",
+    "expo": "^38.0.8",
     "expo-status-bar": "^1.0.2",
     "react": "~16.11.0",
     "react-dom": "~16.11.0",
